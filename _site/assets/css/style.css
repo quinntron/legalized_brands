@@ -92,78 +92,14 @@ a:focus {
 .centered {
 	text-align: center
 }
-.container {
-    width: 100%;
-    margin: 0px;
-    padding: 0px;
-}
 
 /*	################################################################
 	BOOTSTRAP MODIFICATIONS & TWEAKS
 ################################################################# */
-.top-brand-bar {
-    background-color: #a5d15e;
-    height: 40px;
-    width: 100%;
-    margin: 0 auto;
-}
-.top-brand-bar h4 {
-    text-align: center;
-    color: white;
-}
-
-.top-full-area {
-    background-color: #6c6c70;
-    height: 550px;
-    width: 100%; 
-    margin: 0 auto;
-    padding: 10px;
-}
-.top-content {
-    border: 2px solid black;
-    height: 100%;
-    width: 400px;
-    margin: 0 auto;
-    padding: 20px;
-    position: relative;
-    display: inline-block;
-}
-#top-logo {
-    margin: 0 auto;
-    padding: 10px;
-}
-#top-text {
-    margin: 0 auto;
-    padding: 10px;
-    float: right;
-}
-#top-text p {
-    color: white;
-    font-size: 2em;
-}
-
-.top-button {
-    display: inline-block;
-    padding: 20px;
-    border: none;
-    color: white;
-    font-size: 1.4em;
-    margin-top: 40px;
-}
-#quote-button {
-    background-color: hsla(83, 56%, 59%, .8); 
-}
-#contact-button {
-    background-color: hsla(9, 80%, 62%, .8);
-}
-
-
-
 .navbar {
 	min-height: 70px;
 	padding-top: 10px;
 	margin-bottom: 0px;
-    border-radius: 0px;
 }
 
 .navbar-brand {
@@ -191,7 +127,7 @@ a:focus {
 }
 
 .navbar-default {
-	background-color: #343436;
+	background-color: #384452;
 	border-color: transparent;
 }
 
