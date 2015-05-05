@@ -92,14 +92,40 @@ a:focus {
 .centered {
 	text-align: center
 }
+.container {
+    padding: 0px;
+    margin: 0 auto;
+    width: 100%;
+}
 
 /*	################################################################
 	BOOTSTRAP MODIFICATIONS & TWEAKS
 ################################################################# */
+.top-message-bar {
+    background-color: #a5d15e;
+    height: auto;
+    width: 100%;
+    text-align: center;
+    color: white;
+    padding: 1px;
+}
+.top-area {
+    background-color: grey;
+    min-height: 550px;
+}
+.top-content {
+    border: 1px solid black;
+    height: 100%;
+    padding: 10px;
+}
+
+
 .navbar {
 	min-height: 70px;
 	padding-top: 10px;
 	margin-bottom: 0px;
+    border-radius: 0px;
+
 }
 
 .navbar-brand {
@@ -127,7 +153,7 @@ a:focus {
 }
 
 .navbar-default {
-	background-color: #384452;
+	background-color: rgb(52, 52, 54);
 	border-color: transparent;
 }
 
