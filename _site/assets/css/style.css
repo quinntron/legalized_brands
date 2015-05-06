@@ -108,6 +108,7 @@ a:focus {
     text-align: center;
     color: white;
     padding: 1px;
+
 }
 .top-area {
     background-color: grey;
@@ -123,15 +124,38 @@ a:focus {
     height: 300px;
     width: 300px;
     border: 1px solid black;
-    margin: 0 auto;
+    margin-left: 100px;
+    margin-top: 100px;
+    border-radius: 50%;
 }
-
 #top-text {
 
+    margin-top: 90px;
+}
+
+#top-text p {
+    color: white;
+    font-size: 1.8em;
+    padding: 10px;
+}
+
+.top-button {
+    padding: 30px;
+    margin: 10px; 
+    font-size: 1.6em;
+    color: white;
+    border: none;
+    
+}
+
+#quote-button {
+    background-color: hsla(83, 55%, 60%, 0.8);
 }
 
 #contact-button {
-background-color: hsla(13,87,62,.8); 
+    background-color: hsla(13, 87%, 62%, 0.8);
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .navbar {
@@ -256,7 +280,7 @@ background-color: hsla(13,87,62,.8);
 ################################################################# */
 
 #headerwrap {
-	background-color: #00b3fe;
+	background-color: hsla(27, 13%, 87%, .9);
 	min-height: 0px;
 	padding-top: 100px;
 	padding-bottom: 50px;
