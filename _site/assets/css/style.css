@@ -104,15 +104,18 @@ a:focus {
 .top-message-bar {
     background-color: #a5d15e;
     height: auto;
-    width: 100%;
+    width: 105%;
     text-align: center;
     color: white;
     padding: 1px;
+    position: fixed;
+    z-index: 1;
 
 }
 .top-area {
     background-color: grey;
     min-height: 550px;
+    margin-top: 40px;
 }
 .top-content {
     border: 1px solid black;
@@ -157,6 +160,16 @@ a:focus {
     background-color: hsla(13, 87%, 62%, 0.8);
     padding-left: 50px;
     padding-right: 50px;
+}
+
+nav.affix {
+    position: fixed; 
+    top: 60px;
+    left: 62px;
+    width: 360px;
+}
+nav.affix-top {
+    position: static;
 }
 
 .navbar {
