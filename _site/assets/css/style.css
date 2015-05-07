@@ -121,7 +121,7 @@ a:focus {
     margin-top: 40px;
 }
 .top-content {
-    border: 1px solid black;
+    /*border: 1px solid black;*/
     height: 100%;
     padding: 10px;
 }
@@ -131,7 +131,7 @@ a:focus {
 }
 #top-logo img {
     margin: 0 auto;
-    margin-top: 20px;
+    margin-top: 65px;
     vertical-align: center;
     border-radius: 30%;
     padding: 10px;
@@ -326,7 +326,8 @@ a:focus {
     width: 100%;*/
     background-color: hsla(27, 13%, 87%, .9);
     display: block;
-    height: 730px;
+    height: 710px;
+    border-bottom: 8px solid darkgrey;
 
 }
 .focus-cols {
@@ -362,26 +363,37 @@ a:focus {
 }
 
 .focus-text h4 {
-    color: hsla(13, 87%, 62%, 0.8);
+    color: hsla(13, 87%, 62%, 1.0);
+    text-decoration: underline;
 }
 .focus-text h2 {
-    color: hsla(13, 87%, 62%, 0.8);
+    color: hsla(13, 87%, 62%, 1.0);
 }
-/* Services Wrap */
+.focus-text img {
+    height: 50%;
+    width: 50%;
+}
+
+
+
+
+/* Services Section */
 
 #service {
     background-color: grey;
-	margin-top: 0px;
-	margin-bottom: 0px;
+	margin: 0 auto;
+	/*margin-bottom: 0px;*/
 }
 
 .service-text {
     text-align: left;
     border:1px solid black;
     margin: 0 auto;
-    margin-left: 50px;
+    /*margin-left: 20px;*/
     color: violet;
-    padding: 10px;
+    padding: 40px;
+    clear: both;
+
 }
 
 .service-text p {
@@ -391,142 +403,26 @@ a:focus {
 .service-image {
     margin: 0 auto;
     border: 1px solid black;
-    margin-top: 50px;
-    margin-right: 20px;
+    /*margin-top: 50px;*/
+  /*  margin-right: 10px;*/
 }
 .service-image img {
 
 }
 
-/* Portfolio Wrap */
-#portfoliowrap {
-	padding-top: 60px;
-	margin-bottom: 60px;
-	display: block;
-	text-align: center
-}
-
-#portfoliowrap h3 {
-	margin-bottom: 25px;
-}
-
-.portfolio {
-	padding:0 !important;
-	margin:0 !important;
-	display:block;
-}
 
 
-.portfolio-item .title:before {border-radius:0; display:none}
-.portfolio-item p {margin:0px 0 30px;}
-.portfolio-item h3 {margin:-10px 0 10px; font-size:16px; text-transform:uppercase;}
+/* Quote Section */
 
 
-.tpl6 h3
-{
-	color:#fff;
-	margin:0;
-	padding:40px 5px 0;
-	font-size:16px;
-	text-transform:uppercase;
-}
-.tpl6 .dmbutton
-{
-	display:inline-block;
-	margin:30px 5px 20px 5px;
-	font-size:13px;
-}
-
-.tpl6 .bg
-{
-	height:100%;
-	width:100%;
-	background-color:#00b3fe;
-	background-color:rgba(0,179,254,.9);
-	text-align:center;
-}
 
 /* Testimonials Wrap */
-#twrapback {
-    background-color: #00b3fe;
-    background-color:rgba(0,179,254,.8);
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
 
-#twrap {
-    background: url(../img/t-back.jpg) no-repeat center top;
-    position: relative;
-    margin-top: 0px;
-	padding-top:60px;
-	text-align:center;
-	background-attachment: relative;
-	background-position: center center;
-	min-height: 450px;
-	width: 100%;
-	
-    -webkit-background-size: 100%;
-    -moz-background-size: 100%;
-    -o-background-size: 100%;
-    background-size: 100%;
 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-
-#twrap i {
-	font-size: 50px;
-	color: white;
-	margin-bottom: 25px;
-}
-
-#twrap p {
-	color: white;
-	font-size: 15px;
-	line-height: 30px;
-}
-
-/* clients logo */
-#cwrap {
-	background: #f7f7f7;
-	margin-top: 0px;
-	padding-top: 80px;
-	padding-bottom: 100px;
-}
-
-#cwrap h3 {
-	margin-bottom: 60px;
-}
 
 /* Footer */
-#footerwrap {
-	padding-top: 60px;
-	padding-bottom: 60px;
-	background: #384452;
-}
 
-#footerwrap p {
-	color: #bfc9d3;
-}
 
-#footerwrap h4 {
-	color: #ffffff;
-}
-
-#footerwrap i {
-	font-size: 30px;
-	color: #bfc9d3;
-	padding-right: 25px;
-}
-
-#footerwrap i:hover {
-	color: #00b3fe
-}
 
 /*	################################################################
 	PAGE CONFIGURATIONS
