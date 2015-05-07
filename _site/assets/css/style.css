@@ -127,13 +127,14 @@ a:focus {
 }
 
 #top-logo {
-    height: 300px;
-    width: 300px;
-    border: 1px solid black;
-    margin-left: 100px;
-    margin-top: 100px;
-    border-radius: 50%;
-    background-image: url('/_site/assets/img/blog/thumbs/post03.jpg');
+    
+}
+#top-logo img {
+    margin: 0 auto;
+    margin-top: 20px;
+    vertical-align: center;
+    border-radius: 30%;
+    padding: 10px;
 }
 #top-text {
 
@@ -190,21 +191,23 @@ a:focus {
 }
 
 .navbar-header .navbar-brand {
-	color: white;
+	color: hsla(22, 11%, 85%, 1);
+    padding-left: 40px;
 }
 
 .navbar-default .navbar-nav > li > a {
-	color: white;
+	color: hsla(22, 11%, 85%, .9);
 	font-weight: 700;
-	font-size: 12px;
+	font-size: 1.2em;
 }
 
 .navbar-default .navbar-nav > li > a:hover {
-	color: #00b3fe;
+	color: hsla(83, 55%, 60%, 0.8);
+    cursor: crosshair;
 }
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-	color: #00b3fe;
+	color: hsla(83, 55%, 60%, 1);
 	background-color: transparent;
 }
 
@@ -321,8 +324,13 @@ a:focus {
     /*border: 1px solid black;*/
     /*height: auto;
     width: 100%;*/
+    background-color: hsla(27, 13%, 87%, .9);
     display: block;
+    height: 730px;
 
+}
+.focus-cols {
+    margin-top: 20px;
 }
 .border-right {
     border-right: 2px solid black;
@@ -330,26 +338,64 @@ a:focus {
 .focus-section ul li {
     list-style: none;
     text-align: left;
-    padding-left: 50px;
-
+    padding-left: 10px;
+}
+.focus-section ul li:hover {
+    color:hsla(83, 55%, 60%, 1.0);
+    cursor: crosshair;
+    text-decoration: underline;
 }
 .focus-nav {
-    width: 50%;
+    font-size: 1.5em;
+    width: 70%;
 }
 #focus .img-responsive {
 	margin: 0 auto;
 }
+#bud-cola {
+    border: 10px solid white;
+    border-radius: 5px;
+}
 
+.focus-text {
+    text-align: left;
+}
+
+.focus-text h4 {
+    color: hsla(13, 87%, 62%, 0.8);
+}
+.focus-text h2 {
+    color: hsla(13, 87%, 62%, 0.8);
+}
 /* Services Wrap */
+
 #service {
+    background-color: grey;
 	margin-top: 0px;
 	margin-bottom: 0px;
 }
 
-#service i {
-	color: #00b3fe;
-	font-size: 60px;
-	padding: 15px;
+.service-text {
+    text-align: left;
+    border:1px solid black;
+    margin: 0 auto;
+    margin-left: 50px;
+    color: violet;
+    padding: 10px;
+}
+
+.service-text p {
+    color: violet;
+}
+
+.service-image {
+    margin: 0 auto;
+    border: 1px solid black;
+    margin-top: 50px;
+    margin-right: 20px;
+}
+.service-image img {
+
 }
 
 /* Portfolio Wrap */
