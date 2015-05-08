@@ -422,6 +422,11 @@ a:focus {
 
 /* Footer */
 
+.footer-bg {
+    background-image: url('/assets/img/footer-bg-01.png');
+    background-size: cover;
+    background-position: center;
+}
 
 
 /*	################################################################
