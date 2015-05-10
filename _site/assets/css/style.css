@@ -413,11 +413,30 @@ a:focus {
 
 
 /* Quote Section */
+.quote-block {
+    background-color: hsla(27, 13%, 87%, 1);
+    height: 300px;
+    border-top: 8px solid darkgrey;
+    border-bottom: 8px solid darkgrey;
+    margin: 0 auto;
+    text-align: center;
+}
+.text-block p {
+    text-align: left;
+}
 
 
-
-/* Testimonials Wrap */
-
+/* About Us Section */
+.about-us {
+    background-color: black;
+    height: 200px;
+}
+.about-us-header {
+    background-color: orange;
+    height: 100px;
+    text-align: center;
+    vertical-align: center;
+}
 
 
 /* Footer */
